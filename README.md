@@ -27,7 +27,7 @@ AI-driven product selection, scheduling, and multi-channel optimization (Social 
 
 ---
 
-## 🎯 Featured Project: Dogonauts Content Agent
+## 🎯 Featured Project: Botanery Content Agent
 
 A production-grade system that manages the full lifecycle of social media content without human intervention.
 * **Architecture**: Modular system with separation of concerns: `Worker` (execution) and `Collector` (metrics).
