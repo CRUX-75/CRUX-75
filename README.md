@@ -6,64 +6,48 @@
 
 ## 🚀 About Me
 
-A few years ago, I got frustrated with the marketing industry. Everyone was selling the same formulas — "more clicks, more leads, more magic." But behind all that noise, real results were missing. So I decided to build what I couldn't find: **intelligent systems that actually work.**
+A few years ago, I grew frustrated with the traditional marketing industry. Everyone was selling the same formulas: "more clicks, more leads, more magic." But behind the noise, real, scalable results were missing. I decided to build what I couldn't find: **intelligent systems that actually work.**
 
-Today, I am an **AI Automation Architect** specializing in **agentic AI systems**. I don't just "automate tasks"; I design self-improving engines that create, publish, and learn autonomously. [cite_start]I blend my background as a **Certified Online Marketing Manager (E-commerce Focus)** with hands-on AI engineering to turn business problems into robust software solutions[cite: 8, 9].
+Today, I am an **AI Automation Architect** specializing in **agentic AI systems**. I don't just "automate tasks"; I design self-improving engines that create, publish, and learn autonomously. I blend my background as a **Certified Online Marketing Manager** with AI engineering to transform business problems into robust, production-grade software solutions.
 
-As **CEO of Genflow Automation**, my mission is to free professionals from repetitive work, giving them back the time to create and grow.
-
----
-
-## 🧠 What I Build
-
-### **Agentic AI Systems**
-Autonomous content and workflow engines using **LangGraph**, **Node.js**, and a robust **Job-Queue architecture**.
-
-### **Feedback Intelligence & Learning Loops**
-Closed-loop systems that don't just post content, but measure performance (via Meta Insights) to adapt strategy automatically.
-
-### **Enterprise-Grade E-Commerce Automation**
-AI-driven product selection, scheduling, and multi-channel optimization (Social Media + Marketplaces).
+As **CEO of Genflow Automation**, my mission is to free professionals from repetitive work, giving them back the time to create, innovate, and grow.
 
 ---
 
-## 🎯 Featured Project: Botanery Content Agent
+## 🏗️ Featured Project: Botanery Content Agent
 
-A production-grade system that manages the full lifecycle of social media content without human intervention.
-* **Architecture**: Modular system with separation of concerns: `Worker` (execution) and `Collector` (metrics).
-* **Tech**: Node.js, Supabase (PostgreSQL), Meta Graph API, OpenAI SDK.
-* **Logic**: Real-time status tracking (`pending`, `completed`, `failed`) ensuring 100% reliability.
+**Botanery** is an autonomous, closed-loop content system designed for e-commerce. Unlike simple linear workflows, this agent makes data-driven decisions to manage the entire content lifecycle for a brand.
 
-> [▶️ **Watch the Technical Demo (Loom)**](TU_LINK_DE_LOOM_AQUI)
+### System Architecture
+The system utilizes a **Job-Queue architecture** with strict separation of concerns, ensuring the creation process is fault-tolerant, scalable, and production-ready.
 
----
+```mermaid
+graph LR
+    subgraph "Persistence & Queue"
+        DB[(Supabase DB)] -- "Fetch Pending Jobs" --> Worker
+        Worker -- "Update Status / Log Results" --> DB
+    end
 
-## 🛠️ Tech Stack & Certifications
+    subgraph "Execution Layer (Node.js)"
+        Worker[Main Node.js Worker]
+    end
 
-### **Engineering & AI**
-![Python](https://img.shields.io/badge/Python-3.x-blue) ![Node.js](https://img.shields.io/badge/Node.js-Backend-brightgreen) ![Supabase](https://img.shields.io/badge/Supabase-Database-blueviolet) ![LangGraph](https://img.shields.io/badge/LangGraph-Framework-orange) ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green)
+    subgraph "Intelligence & Creative"
+        Worker -- "Prompt & Context" --> LLM[OpenAI / Midjourney]
+        LLM -- "Generated Assets" --> Worker
+    end
 
-### **E-Commerce & Marketing**
-* [cite_start]**Online Marketing Manager (E-Commerce)**: Certified by Social Media Akademie (510 UE)[cite: 1, 16].
-* [cite_start]**Strategic Growth**: Specialist in Meta Ads, Google Ads, and Marketplace optimization (Amazon/eBay)[cite: 43, 47, 49].
+    subgraph "Distribution"
+        Worker -- "Publish Content" --> Meta[Meta Graph API]
+        Meta -- "Media ID" --> Worker
+    end
 
----
+    subgraph "Learning Loop"
+        Collector[Metrics Collector] -- "Get Engagement" --> Meta
+        Collector -- "Store Signals" --> DB
+        DB -- "Optimize Selection" --> Worker
+    end
 
-## 📚 Ongoing Training
-
-* **Software & AI Engineering** | *Turing College (Starting Feb 2026)*
-    * Focusing on LangChain, RAG applications, and production-ready AI Agents.
-* **IA Heroes** | *AI & Automation Mastery*
-    * Advanced Prompt Engineering and AI-powered workflow optimization.
-
----
-
-## 🤝 Let's Connect
-
-If you're building the next generation of AI-powered e-commerce or want to see how autonomous systems change the game — **let's talk**.
-
-💼 **Services**: AI Consulting, Workflow Architecture & Growth Partnership.  
-🌐 **Website**: [genflowautomation.com](https://genflowautomation.com)
-
----
-⭐ **Star my repositories** if you find these architectures useful!
+    style Worker fill:#f9f,stroke:#333,stroke-width:2px
+    style DB fill:#00dfd8,stroke:#333
+    style Collector fill:#ffcc00,stroke:#333
