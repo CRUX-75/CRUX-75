@@ -51,7 +51,6 @@ graph LR
     style Worker fill:#f9f,stroke:#333,stroke-width:2px
     style DB fill:#00dfd8,stroke:#333
     style Collector fill:#ffcc00,stroke:#333
-▶️ Watch the Technical Demo (Loom)
 
 🗺️ Technical Roadmap: From Automation to Autonomous Agency
 The Botanery project follows a phased sprint plan to evolve from a content generator into an AI-driven "Growth Engine."
