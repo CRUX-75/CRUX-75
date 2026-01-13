@@ -91,4 +91,4 @@ graph LR
     style Worker fill:#f9f,stroke:#333,stroke-width:2px
     style DB fill:#00dfd8,stroke:#333
     style Collector fill:#ffcc00,stroke:#333
-👉 Technical Walkthrough: https://www.loom.com/share/8f312f847da947fca2f66277469d7f08
+https://www.loom.com/share/8f312f847da947fca2f66277469d7f08
