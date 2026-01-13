@@ -63,7 +63,7 @@ If you're building the next generation of AI-powered e-commerce or want to see h
 **Botanery** is an autonomous, closed-loop content system designed for e-commerce. Unlike simple linear workflows, this agent makes data-driven decisions to manage the entire content lifecycle for a brand.
 
 ### System Architecture
-The system utilizes a **Job-Queue architecture** with strict separation of concerns, ensuring the creation process is fault-tolerant, scalable, and production-ready.
+This system utilizes a **Job-Queue architecture** with strict separation of concerns, ensuring the creation process is fault-tolerant and highly scalable.
 
 ```mermaid
 graph LR
@@ -95,5 +95,3 @@ graph LR
     style Worker fill:#f9f,stroke:#333,stroke-width:2px
     style DB fill:#00dfd8,stroke:#333
     style Collector fill:#ffcc00,stroke:#333
-▶️ Watch the Technical Demo ([Loom)](https://www.loom.com/share/8f312f847da947fca2f66277469d7f08)
-
