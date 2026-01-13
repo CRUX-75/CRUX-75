@@ -14,6 +14,46 @@ As **CEO of Genflow Automation**, my mission is to free professionals from repet
 
 ---
 
+🗺️ Technical Roadmap: From Automation to Autonomous Agency
+The Botanery project follows a phased sprint plan to evolve from a content generator into an AI-driven "Growth Engine."
+
+🟢 Phase 1: Robust Foundations (Completed)
+Infrastructure: Node.js + Supabase + Sharp setup for high-performance visual composition.
+
+Meta Integration: Automated publishing via Graph API (Single posts & Carousels).
+
+Dynamic Branding: SVG-based templates ensuring 100% visual identity consistency.
+
+🟡 Phase 2: Feedback & Intelligence (Current Focus)
+Sprint 4 (A1 Collector): Real-time ingestion of engagement metrics (Likes, Saves, Reach).
+
+Sprint 5 (A2 Scoring): Implementation of performance scoring models per product and style.
+
+Sprint 6 (A3 Optimizer): Activating the Epsilon-Greedy algorithm for autonomous content selection based on historical ROI.
+
+🔵 Phase 3: Advanced Formats & Scaling (Upcoming)
+Narrative Storytelling: 10-slide seamless carousels generated without human input.
+
+Ads Automation: Automatically identifying "organic winners" and converting them into paid ad campaigns.
+
+Inventory Integration: Live connection with e-commerce catalogs (Shopify/Zoodrop) for stock-aware posting.
+
+🛠️ Tech Stack & Certifications
+AI Engineering: Python, Node.js, LangGraph, OpenAI SDK, Supabase (PostgreSQL).
+
+E-Commerce: Online Marketing Manager Certified (510 UE) — Social Media Akademie.
+
+Upcoming: Software & AI Engineering at Turing College (Starting Feb 2026).
+
+🤝 Let's Connect
+If you're building the next generation of AI-powered e-commerce or want to see how autonomous systems change the game — let's talk.
+
+💼 Services: AI Consulting, Workflow Architecture & Growth Partnership.
+
+🌐 Website: genflowautomation.com
+
+⭐ Star my repositories if you find these architectures useful!
+
 ## 🏗️ Featured Project: Botanery Content Agent
 
 **Botanery** is an autonomous, closed-loop content system designed for e-commerce. Unlike simple linear workflows, this agent makes data-driven decisions to manage the entire content lifecycle for a brand.
