@@ -17,22 +17,24 @@ As **CEO of Genflow Automation**, my mission is to free professionals from repet
 🗺️ Technical Roadmap: From Automation to Autonomous Agency
 The Botanery project follows a phased sprint plan to evolve from a content generator into an AI-driven "Growth Engine."
 
-🟢 Phase 1: Robust Foundations (Completed)
-Infrastructure: Node.js + Supabase + Sharp setup for high-performance visual composition.
+### 🟢 Phase 1: Robust Foundations (Completed)
+* **Sprint 0-2**: Infrastructure setup (Node.js + Supabase + Sharp).
+* **Sprint 3**: Meta Graph API integration for automated publishing.
+* **Sprint 3.1**: Intelligent Image Composition (SVG templates & dynamic branding).
 
-Meta Integration: Automated publishing via Graph API (Single posts & Carousels).
+### 🟡 Phase 2: Feedback & Intelligence (Current Focus)
+* **Sprint 4 (A1 Collector)**: Real-time metrics ingestion (Likes, Saves, Reach).
+* **Sprint 5 (A2 Scoring)**: Implementing performance scoring per product/style.
+* **Sprint 6 (A3 Optimizer)**: Activating the Epsilon-Greedy algorithm for autonomous content selection based on ROI.
 
-Dynamic Branding: SVG-based templates ensuring 100% visual identity consistency.
+### 🔵 Phase 3: Advanced Content & Scaling (Future)
+* **Sprint 9**: Automated Seamless Carousels (10-slides storytelling).
+* **Sprint 10**: AI Video/Reels generation via Remotion/FFmpeg.
+* **Sprint 11**: Ads Automation MVP — Turning organic winning posts into paid ads automatically.
 
-🟡 Phase 2: Feedback & Intelligence (Current Focus)
-Sprint 4 (A1 Collector): Real-time ingestion of engagement metrics (Likes, Saves, Reach).
-
-Sprint 5 (A2 Scoring): Implementation of performance scoring models per product and style.
-
-Sprint 6 (A3 Optimizer): Activating the Epsilon-Greedy algorithm for autonomous content selection based on historical ROI.
-
-🔵 Phase 3: Advanced Formats & Scaling (Upcoming)
-Narrative Storytelling: 10-slide seamless carousels generated without human input.
+### 🚀 Phase 4: Business Expansion
+* Integration with Shopify/Zoodrop for real-time inventory-aware posting.
+* White-label architecture for multi-tenant "Content Agent as a Service."
 
 Ads Automation: Automatically identifying "organic winners" and converting them into paid ad campaigns.
 
