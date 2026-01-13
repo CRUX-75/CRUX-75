@@ -58,10 +58,6 @@ If you're building the next generation of AI-powered e-commerce or want to see h
 
 ---
 
-## 🏗️ Featured Project: Botanery Content Agent
-
-**Botanery** is an autonomous, closed-loop content system designed for e-commerce. Unlike simple linear workflows, this agent makes data-driven decisions to manage the entire content lifecycle for a brand.
-
 ### System Architecture
 This system utilizes a **Job-Queue architecture** with strict separation of concerns, ensuring the creation process is fault-tolerant and highly scalable.
 
