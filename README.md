@@ -113,7 +113,7 @@ If you're building the next generation of AI-powered e-commerce or want to see h
 
 💼 **Services**: AI Consulting, Workflow Architecture & Growth Partnership  
 🌐 **Website**: [genflowautomation.com](https://genflowautomation.com)  
-📧 **Email**: [contact@genflowautomation.com](mailto:contact@genflowautomation.com)  
+📧 **Email**: [contact@genflowautomation.com](mailto:hello@genflowautomation.com)  
 💼 **LinkedIn**: [Connect with me](https://linkedin.com/in/nabitmikan)
 
 ---
