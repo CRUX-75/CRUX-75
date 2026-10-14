@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Nabit Mikan Castano
 
-**AI Automation Architect | Generative AI Engineer | E-Commerce Specialist**  
+**AI Automation Architect | Generative AI Engineer | E-Commerce Specialist | Conversational AI & WhatsApp agents**  
 📍 Berlin, Germany | 🌐 [genflowautomation.com](https://genflowautomation.com)
 
 ---
