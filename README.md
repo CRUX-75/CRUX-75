@@ -104,7 +104,6 @@ graph LR
 
 **E-Commerce**: Online Marketing Manager Certified (510 UE) — Social Media Akademie
 
-**Upcoming**: Software & AI Engineering at Turing College (Starting Feb 2026)
 
 ---
 
